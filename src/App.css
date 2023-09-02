@@ -1,0 +1,139 @@
+
+html, body, #root {
+  height: 100%;
+
+}
+
+.box-shadow-btn {
+  -webkit-box-shadow: 0px 0px 90px -18px rgba(255,0,255,1);
+-moz-box-shadow: 0px 0px 90px -18px rgba(255,0,255,1);
+box-shadow: 0px 0px 90px -18px rgba(255,0,255,1);
+  border: 2px solid #9d06fa;
+  width: 200px;
+  height: 50px;
+}
+
+.info {
+  height: 120px;
+  border-bottom: 2px dashed black;
+}
+
+
+
+.box-shadow-btn:hover, .box-shadow-btn:active {
+
+  -webkit-box-shadow: 0px 0px 90px -18px rgba(255,0,255,1) !important;
+-moz-box-shadow: 0px 0px 90px -18px rgba(255,0,255,1) !important;
+box-shadow: 0px 0px 90px -18px rgba(255,0,255,1) !important;
+border: 2px solid #9d06fa !important;
+}
+
+.top h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgba(var(--bs-dark-rgb), .3)!important;
+}
+
+.radius {
+  border-radius: 10px;
+}
+
+.list {
+  height: 500px;
+}
+
+.pa-25 {
+  top: 25%;
+  left: 25%;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.i-close {
+  cursor: pointer !important;
+}
+
+.i-close:hover {
+  color: red !important;
+}
+
+.i-edit:hover {
+  color: rgb(255, 204, 0) !important;
+}
+
+.i-finish {
+  cursor: pointer ;
+}
+
+.i-finish:hover {
+  color: rgb(0, 208, 0) !important;
+}
+
+.infos {
+  min-height: 100%;
+}
+
+nav {
+  backdrop-filter: blur(1px);
+  margin: 0 !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.h-friend-list {
+  min-height: 400px;
+  max-height: 700px;
+}
+
+.top-header {
+  top: 85px;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.right-100 {
+  right: -100%;
+}
+
+.navbar-responsive {
+  transition: .3s ease-in-out right;
+}
+
+.fs-7 {
+  font-size: 16px;
+}
+
+.fs-65 {
+  font-size: 18px;
+}
+
+.min {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .fs-7 {
+    font-size: 12px;
+  }
+
+  .fs-65 {
+    font-size: 13px;
+  }
+
+  .top h1 {
+    font-size: 40px;
+  }
+
+  .min {
+    height: 400px !important;
+  }
+}
